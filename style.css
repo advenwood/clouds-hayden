@@ -1,0 +1,20 @@
+
+#cloud1,
+#cloud2{
+    width: 900px;
+    height: auto;
+    position: absolute;
+}
+
+.speed{
+    animation: float 4s linear normal infinite;
+}
+
+@keyframes float{
+    from{ 
+        transform: rotate(0deg) translate(3px,-3px) rotate(0deg); 
+    }
+    to { 
+        transform: rotate(360deg) translate(3px,-3px) rotate(-360deg); 
+    }
+}
